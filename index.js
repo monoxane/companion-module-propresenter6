@@ -29,7 +29,7 @@ instance.prototype.config_fields = function () {
 			id: 'info',
 			width: 12,
 			label: 'Information',
-			value: "This module communicates with Renewed Vision's ProPresenter 6"
+			value: "This module communicates with Renewed Vision's ProPresenter 6  IT IS CURRENTLY BUGGY, CLOSING COMPANION WILL CRASH PROPRESENTER"
 		},
 		{
 			type: 'textinput',
@@ -175,7 +175,7 @@ instance.prototype.action = function(action, config, ws) {
 instance.module_info = {
 	label: 'ProPresenter 6',
 	id: 'propresenter6',
-	version: '1.0.1'
+	version: '1.0.2'
 };
 
 instance_skel.extendedBy(instance);
